@@ -10,7 +10,7 @@ export default {
         'accent': '#883AEA',
         'accent-light': '#E0CCFA',
         'accent-dark': '#310A65',
-        'background': '#13151A',
+        'background': '#111827',
       },
     },
   },

@@ -4,9 +4,9 @@ import Experience from './components/Experience'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-800 via-cyan-900 to-slate-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-blue-900/20 to-purple-900/20">
+      <section className="relative overflow-hidden">
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-200 bg-clip-text text-transparent mb-6 tracking-tight text-center">
             Felix
@@ -79,7 +79,7 @@ function App() {
       {/* Projects Section */}
       <section className="py-12 sm:py-20 px-4 bg-black/20">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 bg-gradient-to-r from-gray-200 to-gray-500 bg-clip-text text-transparent">
             Projekte
           </h2>
           <p className="text-base sm:text-xl text-gray-400">

@@ -5,7 +5,7 @@
 @layer base {
   html {
     font-family: system-ui, sans-serif;
-    background: #13151a;
+    background: #111827;
   }
   
   body {
@@ -31,7 +31,7 @@
   }
   
   .text-gradient:hover {
-    background-position: 100;
+    background-position: 100%;
   }
 }
 
