@@ -1,7 +1,6 @@
 import Footer from './components/Footer'
 import Social from './components/Social'
 import Experience from './components/Experience'
-import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -96,7 +95,6 @@ function App() {
           </p>
         </div>
       </section>
-      <ContactForm />
       <Footer />
     </div>
   )
