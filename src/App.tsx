@@ -1,10 +1,12 @@
 import Footer from './components/Footer'
 import Social from './components/Social'
 import Experience from './components/Experience'
+import Snowfall from './components/Snowfall'
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
+      <Snowfall />
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
