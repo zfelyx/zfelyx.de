@@ -19,14 +19,6 @@ function App() {
             <Social title="Discord" href='https://discord.com/users/1078242409495932969' path='discord.svg' color="#5865F2"/>
             <Social title="Email" href='mailto:felix.schneider008@outlook.de' path='envelope.svg' color="#D44638"/>
           </div>
-          <div className="flex items-center gap-4">
-            <a href="/tools" className="inline-flex items-center gap-2 bg-transparent border border-white/30 text-white font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-white/10 hover:text-white hover:scale-105 transition-all text-sm sm:text-base">
-              Tools entdecken
-              <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </a>
-          </div>
         </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <svg className="w-8 h-8 text-white opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
