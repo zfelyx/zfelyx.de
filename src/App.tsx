@@ -18,7 +18,7 @@ function App() {
           </p>
           <div className="flex space-x-4 sm:space-x-6 mb-6">
             <Social title="GitHub" href='https://github.com/zfelyx' path='github.svg' color="#24292e"/>
-            <Social title="Discord" href='https://discord.com/users/1078242409495932969' path='discord.svg' color="#5865F2"/>
+            <Social title="Discord" href='https://discord.com/users/1159547960233836684' path='discord.svg' color="#5865F2"/>
             <Social title="Email" href='mailto:felix.schneider008@outlook.de' path='envelope.svg' color="#D44638"/>
           </div>
         </div>
