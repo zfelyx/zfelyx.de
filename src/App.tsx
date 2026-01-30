@@ -4,6 +4,7 @@ import Social from './components/Social'
 import Experience from './components/Experience'
 import Snowfall from './components/Snowfall'
 import Impressum from './pages/Impressum'
+import DiscordPresence from "./components/DiscordPresence.tsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-200 bg-clip-text text-transparent mb-6 tracking-tight text-center">
                   Felix
                 </h1>
+                <DiscordPresence userId="1159547960233836684" />
                 <p className="text-lg sm:text-xl md:text-2xl text-center max-w-xl sm:max-w-2xl mb-8 text-gray-300 px-2">
                   Backend & Frontend Entwickler | Kreativ & Innovativ
                 </p>
