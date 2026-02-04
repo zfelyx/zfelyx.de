@@ -4,6 +4,7 @@ import Social from './components/Social'
 import Experience from './components/Experience'
 import Snowfall from './components/Snowfall'
 import Impressum from './pages/Impressum'
+import DiscordPresence from "./components/DiscordPresence.tsx";
 
 function App() {
   return (
@@ -31,6 +32,12 @@ function App() {
                 <svg className="w-8 h-8 text-white opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                 </svg>
+              </div>
+            </section>
+
+            <section className="py-8 px-4">
+              <div className="max-w-6xl mx-auto flex justify-center">
+                <DiscordPresence userId="1159547960233836684" />
               </div>
             </section>
 
