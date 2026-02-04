@@ -28,7 +28,7 @@ interface Activity {
         small_image?: string
         small_text?: string
     }
-    applications_id?: string
+    application_id?: string
 }
 
 interface SpotifyData {
