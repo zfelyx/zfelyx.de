@@ -19,7 +19,6 @@ function App() {
                 <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-200 bg-clip-text text-transparent mb-6 tracking-tight text-center">
                   Felix
                 </h1>
-                <DiscordPresence userId="1159547960233836684" />
                 <p className="text-lg sm:text-xl md:text-2xl text-center max-w-xl sm:max-w-2xl mb-8 text-gray-300 px-2">
                   Backend & Frontend Entwickler | Kreativ & Innovativ
                 </p>
@@ -33,6 +32,12 @@ function App() {
                 <svg className="w-8 h-8 text-white opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                 </svg>
+              </div>
+            </section>
+
+            <section className="py-8 px-4">
+              <div className="max-w-6xl mx-auto flex justify-center">
+                <DiscordPresence userId="1159547960233836684" />
               </div>
             </section>
 
