@@ -20,7 +20,7 @@ export default function Impressum() {
             </p>
             <p className="mb-2 leading-loose text-lg text-justify">
               <strong>Kontakt:</strong><br />
-              E-Mail: felix.schneider008@outlook.de
+              E-Mail: contact@zfelyx.de
             </p>
           </section>
         </div>
