@@ -42,7 +42,6 @@ if (!fs.existsSync(distDir)) {
   process.exit(1)
 }
 
-// Remove previous backup if exists and copy current dist
 try {
   if (fs.existsSync(backupDir)) {
     removeSync(backupDir)
